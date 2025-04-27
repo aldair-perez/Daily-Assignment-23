@@ -1,0 +1,23 @@
+---
+title: "Assignment-23"
+subtitle: "ESS-330"
+name:
+- author: "Aldair Perez Marmolejo"
+- email: "alpema@colostate.edu"
+format: html
+execute: 
+  echo: true
+---
+```{r}
+install.packages("sf")
+install.packages("terra")
+install.packages("mapview")
+library(sf)
+library(terra)
+library(mapview)
+```
+
+```{r}
+remotes::install_github("mikejohnson51/AOI")
+```
+
